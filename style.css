@@ -12,6 +12,7 @@ body{
 .Container_Info{
     padding: 5px;
     background-color: #eeeeee;
+    min-width: 330px;
 }
 h1{
     padding: 5px;
@@ -40,9 +41,8 @@ button:hover{
     color: #fff;
     background-color: #3F4BFF;
 }
-#TABLA{
+#Tabla{
     margin: 15px;
-    padding: 1px;
     color: #eeeeee;
     font-size: 28px;
     font-family: Arial, Helvetica, sans-serif;
