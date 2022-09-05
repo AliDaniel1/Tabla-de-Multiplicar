@@ -15,10 +15,20 @@
             <label>Ingresa la tabla que deseas ver</label><br>
             <input type="number" id="Tabla_number" placeholder="Introduce un numero">
         </form>
+        Filas:
+        <select  id="Selector_fila" onchange="Seleccionar_filas()">
+            <option value="1">10</option>
+            <option value="2">20</option>
+            <option value="3">50</option>
+            <option value="4">100</option>
+            <option value="5">200</option>
+        </select>
         
         <p id ="Text_Info"></p>
-        <button onclick = "Crear_Tabla()">Crear</button>
-        <button onclick = "Reiniciar()">Reiniciar</button>
+        <div>
+            <button id="Btn" onclick = "Crear_Tabla()">Crear</button>
+            <button onclick = "Reiniciar()">Reiniciar</button>
+        </div>
     </div>
 
     <h3 id ="Tabla"> </h3>
